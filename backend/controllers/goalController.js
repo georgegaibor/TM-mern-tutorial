@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const Goal = require('../models/goalModel')
+const Goal = require('../models/goalModel');
 //CREATE
 //@desc     Set goals
 //@route    POST /api/goals
@@ -68,4 +68,4 @@ module.exports = {
     getGoal,
     updateGoal,
     deleteGoal
-}
+};
